@@ -1,0 +1,239 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* Navbar START */
+nav{
+    width: 100%;
+    /* background-color: gray; */
+    background-image: url('https://indopop69.wordpress.com/wp-content/uploads/2018/02/meaty.jpg?w=1040');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+nav .container{
+    padding: 10px;
+}
+
+nav .container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li .judul{
+    width: 50%;
+}
+
+nav .container ul li .judul img{
+    width: 100%;
+}
+
+    /* Menu START */
+    .menu{
+        width: 100%;
+        background-color: rgb(15,59,94);
+        /* background-color: #333; */
+        
+        position: sticky;
+        top: 0;
+    }
+
+    .menu .container{
+        padding: 10px;
+    }
+
+    .menu .container ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .menu .container ul li{
+        list-style-type: none;
+    }
+    .menu .container ul li a{
+        padding: 10px;
+        color: white;
+        text-decoration: underline;
+
+        text-underline-offset: 10px;
+    }.menu .container ul li a:hover{
+        color: lightblue;
+        text-decoration: none;
+    }
+    /* Menu END */
+/* Navbar END */
+
+
+/* Marquee START */
+.marquee{
+    width: 100%;
+    background-color: rgb(15,49,76);
+    /* background-color: #33333386; */
+
+    position: sticky;
+    top: 0;
+}
+
+.marquee .container{
+    padding: 10px;
+}
+
+.marquee .container marquee p{
+    color: white;
+}
+/* Marquee END */
+
+
+/* About START */
+.about{
+    width: 100%;
+    background-color: rgb(103, 150, 65);
+    
+}
+
+.about .container{
+    padding: 10px;
+
+}
+
+.about .container h2{
+    color: #F8EB10;
+    background-color: #333;
+    padding: 10px;
+}
+
+.about .container{
+    display: flex;
+}
+
+.about .container ul{
+    padding: 10px;
+}
+
+.about .container ul img{
+    min-width: 50%;
+    max-width: 100%;
+}
+
+.about .container ul .about-text{
+    text-align: left;
+}
+
+.about .container ul p{
+    color: white;
+
+    padding: 10px;
+}
+/* About END */
+
+
+/* Product START */
+.product{
+    width: 100%;
+    background-color: rgb(252, 59, 59);
+}
+
+.product .container{
+    padding: 10px;
+    
+
+}
+
+.product .container h2{
+    color: #F8EB10;
+    padding: 10px;
+    background-color: #333;
+}
+
+.product .container ul{
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+
+}
+
+.product .container ul a{
+    padding: 5px;
+}
+
+.product .container ul a img{
+    width: 50%;
+}
+/* Product END */
+
+
+/* Gallery START */
+.gallery{
+    width: 100%;
+    background-color: yellow
+}
+
+.gallery .container{
+    padding: 10px;
+    
+}
+
+.gallery .container h2{
+    color:#F8EB10;
+    padding: 10px;
+    background-color: #333;
+
+}
+
+.gallery .container ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333;
+
+}
+
+.gallery .container ul a{
+    padding: 5px;
+}
+
+.gallery .container ul a img{
+    width: 100%;
+}
+/* Gallery END */
+
+/* Footer START */
+.footer{
+    width: 100%;
+    background-color: rgb(15,49,76);
+}
+
+.footer .container{
+    padding: 10px;
+}
+
+.footer .container h2{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.footer .container p{
+    color: white;
+    text-align: center;
+}
+
+.footer .container ul{
+    padding: 10px;
+}
+
+.footer .container ul p a{
+    color: white;
+}
+/* Footer END */
